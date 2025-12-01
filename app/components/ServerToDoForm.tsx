@@ -13,7 +13,7 @@ function ServerToDoForm() {
 
   return (
     <div>
-      <form>
+      <form action={addHandler}>
         <div>
           <label htmlFor="title">title</label>
           <input type="text" id="title" name="title" />
